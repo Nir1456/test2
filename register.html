@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamini</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="page">
+        <button onclick="window.location='home.html';" class="h_b">Home</button>
+        <button onclick="window.location='event.html';" class="E_b">Events</button>
+        </div>
+        <div class="acount">
+        <button onclick="window.location='login.html';" class="L_b">Login</button>
+        <button onclick="window.location='register.html';" class="R_b">Register</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="login_con">
+            <div class="ehead">
+                <h1>Register</h1>
+            </div>
+            <form action="register.php" method="post">
+            <div class="input_wrapper">
+                <input type="text" id="username" name="username" required class="very" placeholder=" ">
+                <label for="username" class="label">Username</label>
+            </div>
+            <div class="input_wrapper">
+                <input type="text" id="name" name="name" required class="very" placeholder=" ">
+                <label for="name" class="label">Name</label>
+            </div>
+            <div class="input_wrapper">
+                <input type="password" id="password" name="password" required class="very" placeholder=" ">
+                <label for="password" class="label">Password</label>
+            </div>
+            <div class="input_wrapper">
+                <input id="cpass" class="very" type="password" placeholder=" ">
+                <label for="cpass" class="label">Confirm Password</label>
+            </div>
+            <div class="input_wrapper">
+                <input type="number" id="age" name="age" required class="very" placeholder=" ">
+                <label for="age" class="label">Age</label>
+            </div>
+            <div class="submit">
+                <button class="b_submit" type="submit">Register</button>
+            </div>
+        </form>
+            
+        </div>
+        </div>
+</body>
+</html>
